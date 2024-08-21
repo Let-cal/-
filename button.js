@@ -64,7 +64,7 @@ document.getElementById("rejectBtn").addEventListener("click", function () {
   // Thay đổi hình ảnh trong <div class="gif">
   const gifImage = document.querySelector(".gif img");
   if (gifImage) {
-    gifImage.src = "public/meme-buon-yody-vn1.jpg"; // Thay đổi src của hình ảnh
+    gifImage.src = "meme-buon-yody-vn1.jpg"; // Thay đổi src của hình ảnh
   }
 
   if (rejectCount > maxRejectCount) {
