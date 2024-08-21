@@ -6,6 +6,26 @@
       "use": "@vercel/static-build"
     },
     {
+      "src": "button.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "button.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "t.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "t2.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "t2.js",
+      "use": "@vercel/static"
+    },
+    {
       "src": "public/**/*",
       "use": "@vercel/static"
     }
