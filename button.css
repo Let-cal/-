@@ -1,0 +1,43 @@
+.Apologize {
+  width: 100%;
+  height: 1000px;
+  margin-top: 20px;
+  position: relative; /* Thay thế absolute nếu không cần */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.gif {
+  display: flex;
+  justify-content: center;
+}
+#agreeBtn {
+  width: 400px;
+  height: 200px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#rejectBtn {
+  width: 400px;
+  height: 200px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.buttons p {
+  font-size: 50px;
+}
